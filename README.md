@@ -17,15 +17,15 @@ pip install HeislerChartsGuide
 Heisler Class Guide:
 
 At first use have to defone configuration of the problem.
-There are there kind of shapes:
-  1- Plane (W)\n
-  2- Cylinder (C)
-  3- Sphere (S)
+There are there kind of shapes:\
+  1- Plane (W)\
+  2- Cylinder (C)\
+  3- Sphere (S)\
 
-Also three types of charts:
-  1- Center Temperature (CT)
-  2- Internal Energy Chnage (IE)
-  3- Temperature Distribution (TD)
+Also three types of charts:\
+  1- Center Temperature (CT)\
+  2- Internal Energy Chnage (IE)\
+  3- Temperature Distribution (TD)\
 
 Consider you want to use the Internal Energy chart for a plane wall.
 ```python
@@ -45,7 +45,7 @@ t = 120				#time [s]        Elapsed time
 Bi, Fo = problem.calculator(alpha, L, h, k, t, verbose = 1)
 ```
 ## Reference
-[1] Frank P. Incropera (2006). Fundamentals of Heat and Mass Transfer (6th ed.). John Wiley. ISBN-13: 978-0471457282
+[1] Frank P. Incropera (2006). Fundamentals of Heat and Mass Transfer (6th ed.).\John Wiley. ISBN-13: 978-0471457282
 ## License
 
 Copyright 2021 Reza Sadeghi
