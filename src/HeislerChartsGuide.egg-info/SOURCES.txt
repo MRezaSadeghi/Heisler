@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+src/HeislerChartsGuide.py
+src/HeislerChartsGuide.egg-info/PKG-INFO
+src/HeislerChartsGuide.egg-info/SOURCES.txt
+src/HeislerChartsGuide.egg-info/dependency_links.txt
+src/HeislerChartsGuide.egg-info/requires.txt
+src/HeislerChartsGuide.egg-info/top_level.txt
