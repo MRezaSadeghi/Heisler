@@ -4,7 +4,7 @@ This is a Python library distributed on [Pypi](https://pypi.org/project/HeislerC
 
 Using ```show_plot``` based on made object, the plot related to thedesired shape will be depicted. This function does not require any mandatory arguments. After running this function, the shown chart allows users to click on it and draw a vertical and a horizontal line to determine the accurate position of the selected point. You can check an unlimited number of points, and just by pressing X button on the top left corner, the chart will be closed.
 
-Unfortunately, in this version (1.0), the numeric analysis of the chart is not available, so users ought to select points and read its position manually. We are planning to make it easier to work with this package.
+Unfortunately, in this version (0.1.0), the numeric analysis of the chart is not available, so users ought to select points and read its position manually. We are planning to make it easier to work with this package.
 
 ## Installation
 use the package manager [pip](https://pip.pypa.io/en/stable/) to install Heisler Chart Guide in Python.
