@@ -1,4 +1,4 @@
-Version = "0.1.1"
+Version = "0.1.2"
 Description = "A guide for using Heisler charts\n\
                and approximation for transient heat transfer."
 
