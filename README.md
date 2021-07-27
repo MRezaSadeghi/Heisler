@@ -15,17 +15,18 @@ pip install HeislerChartsGuide
 
 Heisler Class Guide:
 
-    At first use have to defone configuration of the problem.
-    There are there kind of shapes:
-        1- Plane (W)
-        2- Cylinder (C)
-        3- Sphere (S)
-    Also three types of charts:
-        1- Center Temperature (CT)
-        2- Internal Energy Chnage (IE)
-        3- Temperature Distribution (TD)
+At first use have to defone configuration of the problem.
+There are there kind of shapes:
+1- Plane (W)
+2- Cylinder (C)
+3- Sphere (S)
 
-Consider you want to use the Internal Energy chart for a plain wall.
+Also three types of charts:
+1- Center Temperature (CT)
+2- Internal Energy Chnage (IE)
+3- Temperature Distribution (TD)
+
+Consider you want to use the Internal Energy chart for a plane wall.
 ```python
 from HeislerChartsGuide import Heisler as hc
 problem = hs("W", "IE", verbose = 0)
