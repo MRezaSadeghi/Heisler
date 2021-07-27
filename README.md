@@ -1,6 +1,6 @@
 # Heisler Chart Guide
 
-This is a Python library distributed on [Pyp](https://pypi.org) to increase the speed and accuracy of using the Heilser Chart. This package also provides users a simple additional calculator which allows users to calculate initial useful parameters for Heisler Chart.
+This is a Python library distributed on [Pypi](https://pypi.org) to increase the speed and accuracy of using the Heilser Chart. This package also provides users a simple additional calculator which allows users to calculate initial useful parameters for Heisler Chart.
 Using this function based on made object, the plot related to thedesired shape will be depicted. This function does not require and mandatory arguments. After running this function, the shown chart allows users to click on it and draw a vertical and a horizontal line to determine the accurate position of the selected point. You can check an unlimited number of points, and just by pressing X button on the top left corner, the chart will be closed.
 
 Unfortunately, in this version (1.0), the numeric analysis of the chart is not available, so users ought to select points and read its position manually. We are planning to make it easier to work with this package.
