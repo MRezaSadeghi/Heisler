@@ -1,7 +1,8 @@
 # Heisler Chart Guide
 
 This is a Python library distributed on [Pypi](https://pypi.org/project/HeislerChartsGuide/) to increase the speed and accuracy of using the Heilser Chart. This package also provides users a simple additional calculator which allows users to calculate initial useful parameters for Heisler Chart.
-Using this function based on made object, the plot related to thedesired shape will be depicted. This function does not require and mandatory arguments. After running this function, the shown chart allows users to click on it and draw a vertical and a horizontal line to determine the accurate position of the selected point. You can check an unlimited number of points, and just by pressing X button on the top left corner, the chart will be closed.
+
+Using ```show_plot``` based on made object, the plot related to thedesired shape will be depicted. This function does not require any mandatory arguments. After running this function, the shown chart allows users to click on it and draw a vertical and a horizontal line to determine the accurate position of the selected point. You can check an unlimited number of points, and just by pressing X button on the top left corner, the chart will be closed.
 
 Unfortunately, in this version (1.0), the numeric analysis of the chart is not available, so users ought to select points and read its position manually. We are planning to make it easier to work with this package.
 
@@ -17,14 +18,14 @@ Heisler Class Guide:
 
 At first use have to defone configuration of the problem.
 There are there kind of shapes:
-1- Plane (W)
-2- Cylinder (C)
-3- Sphere (S)
+  1- Plane (W)
+  2- Cylinder (C)
+  3- Sphere (S)
 
 Also three types of charts:
-1- Center Temperature (CT)
-2- Internal Energy Chnage (IE)
-3- Temperature Distribution (TD)
+  1- Center Temperature (CT)
+  2- Internal Energy Chnage (IE)
+  3- Temperature Distribution (TD)
 
 Consider you want to use the Internal Energy chart for a plane wall.
 ```python
@@ -43,6 +44,8 @@ k = 215				#[W/mK.]         Thermal conductivity
 t = 120				#time [s]        Elapsed time
 Bi, Fo = problem.calculator(alpha, L, h, k, t, verbose = 1)
 ```
+## Reference
+Frank P. Incropera (2006). Fundamentals of Heat and Mass Transfer (6th ed.). John Wiley. ISBN-13: 978-0471457282
 ## License
 
 Copyright 2021 Reza Sadeghi
