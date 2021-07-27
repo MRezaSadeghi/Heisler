@@ -40,7 +40,8 @@ def main():
         py_modules=["HeislerChartsGuide"],
         package_dir={'': 'src'},
         install_requires=["numpy", "matplotlib"],
-        packages=setuptools.find_packages()
+        packages=setuptools.find_packages(),
+        url="https://github.com/MRezaSadeghi/HeislerChartsGuide"
         )
     print(setup_parameteres)
     setuptools.setup(**setup_parameteres)
